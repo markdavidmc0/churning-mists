@@ -1,2 +1,2 @@
 # churning-mists
-Customer churn train/prediction library with automatic model selection features
+Customer churn prediction library focused on automated feature engineering and model selection
