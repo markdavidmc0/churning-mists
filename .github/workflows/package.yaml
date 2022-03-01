@@ -5,7 +5,9 @@ name: Python package
 
 on:
   push:
-    branches: [ $default-branch ]
+    branches:
+      - '**'        # matches every branch
+      - '!master'   # excludes master
   pull_request:
     branches: [ $default-branch ]
 
